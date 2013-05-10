@@ -26,7 +26,7 @@ for debugging
 python server.py
 ```
 
-for **production**
+for **production** - fill in your ```ip address```
 ```bash
 gunicorn server:app --bind <ip address>:80 --workers 2 --timeout 60
 ```
