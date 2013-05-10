@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>flickr uploadr</title>
+</head>
+<body>
+        <div id="main">
+            <h1>Upload Your Images</h1>
+            <form method="post" enctype="multipart/form-data"  method="post"  action="http://api.flickr.com/services/upload/">
+                <input type="file" name="images" id="images" multiple />
+                <input id="001" type="hidden" name="api_key" value="{{ api_key }}"/>  
+                <input id="002" type="hidden" name="auth_token" value="{{ token }}"/>  
+                <input id="003" type="hidden" name="api_sig" value="{{ api_sig }}"/>
+                <input id="004" type="hidden" name="tags" value="{{ tags }}"/>
+            </form>
+        
+        <div id="current_picture"></div>
+        <div id="timer" class="grey"></div>
+        <div id="error" class="error"></div>
+        <div id="finish" class="finish"></div>
+        <div id="response" class="grey"></div>
+            <ul id="image-list">
+
+            </ul>
+        </div>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <script src="/static/upload.js"></script>
+</body>
+</html>
