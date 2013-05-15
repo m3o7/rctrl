@@ -6,8 +6,14 @@ raspberry controll center
 ### setup
 ####requirements:
 ```bash
+### install git
+sudo apt-get install git
+
+### install python requirements
 sudo easy_install flask gunicorn pip
 sudo pip install flickrapi
+
+git clone https://github.com/marcopashkov/rctrl.git
 ```
 The python flickrapi seems to have been discontinued, so I have forked the git it [here](https://github.com/marcopashkov/flickrapi.git).
 
