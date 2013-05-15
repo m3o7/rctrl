@@ -6,7 +6,7 @@ raspberry controll center
 ### setup
 ####requirements:
 ```bash
-sudo easy_install flask gunicorn
+sudo easy_install flask gunicorn pip
 sudo pip install flickrapi
 ```
 The python flickrapi seems to have been discontinued, so I have forked the git it [here](https://github.com/marcopashkov/flickrapi.git).
