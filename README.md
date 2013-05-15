@@ -13,6 +13,7 @@ sudo apt-get install git
 sudo easy_install flask gunicorn pip
 sudo pip install flickrapi
 
+### check out the source code
 git clone https://github.com/marcopashkov/rctrl.git
 ```
 The python flickrapi seems to have been discontinued, so I have forked the git it [here](https://github.com/marcopashkov/flickrapi.git).
