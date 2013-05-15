@@ -4,7 +4,7 @@ rctrl
 raspberry controll center
 
 ### setup
-####requirements:
+#### install requirements:
 ```bash
 ### install git
 sudo apt-get install git
@@ -20,7 +20,8 @@ The python flickrapi seems to have been discontinued, so I have forked the git i
 
 #### credentials:
 fill in your ```api key```, ```api secret``` and ```api token```. Here you can find your [api key](http://www.flickr.com/services/api/keys/)
-and [api secret](http://www.flickr.com/services/api/keys/). 
+and [api secret](http://www.flickr.com/services/api/keys/). For the access token please follow the [official API guide](http://www.flickr.com/services/api/auth.howto.web.html) or
+use e.g. an [online tool](http://phpflickr.com/tools/auth/).
 ```bash
 echo "api_key = '<api key>'" > flickr_credentials.py
 echo "api_secret = '<api secret>'" >> flickr_credentials.py
